@@ -3,7 +3,7 @@
 ARCHETYPE="$1"
 if [ -z "$ARCHETYPE" ]; then
   options=("archetypes/clojure" "archetypes/java")
-  select archetype in "${options[@]}"; do
+  select ARCHETYPE in "${options[@]}"; do
     break
   done
 fi
