@@ -1,4 +1,4 @@
 ## Usage
 
-    bash <(curl https://raw.github.com/archetypes/archetype-bootstrap/master/bootstrap.sh)
+    bash <(curl http://archetypes.github.io/bootstrap.sh)
 
