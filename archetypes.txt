@@ -1,3 +1,4 @@
 archetypes/clojure
 archetypes/java
 archetypes/scala
+archetypes/haxeflixel
