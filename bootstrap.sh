@@ -2,8 +2,7 @@
 
 ARCHETYPE="$1"
 if [ -z "$ARCHETYPE" ]; then
-  options=("archetypes/clojure" "archetypes/java" "archetypes/scala")
-  select ARCHETYPE in "${options[@]}"; do
+  select ARCHETYPE in `curl -s http://archetypes.github.io/archetypes.txt`; do
     break
   done
 fi
