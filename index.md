@@ -46,7 +46,7 @@ More specifically, the checked-out template is transformed into your project by 
 1. Parameterize the template.  You may want to do one or more of the following
     * Add a `.liquid` extension to any file and then use
     * Add additional parameters in `properties.yaml`
-    * Use liquid template syntax in any folder name or file name.  The name will be URL-decoded before being evaluated by liquid.  (For [example](https://github.com/archetypes/java), `{% raw %}{{ package %7C as_path }}{% endraw %}`)
+    * Use [liquid template syntax](https://shopify.github.io/liquid/basics/introduction/) in any folder name or file name.  The name will be URL-decoded before being evaluated by liquid.  (For [example](https://github.com/archetypes/java), `{% raw %}{{ package %7C as_path }}{% endraw %}`)
     * Add additional liquid filters to `init.rb`
     * Add additional shell commands to the end of `init.rb`
 1. `git commit` your parameterized template
