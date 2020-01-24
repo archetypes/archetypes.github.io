@@ -38,7 +38,7 @@ More specifically, the checked-out template is transformed into your project by 
 
     ```bash
     git remote add archetype https://github.com/archetypes/archetype.git
-    git pull archetype master
+    git pull archetype master --allow-unrelated-histories
     # resolve merge conflicts
     git commit
     ```
